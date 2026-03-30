@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(1, 29, 29);
+}
+
+.container{
+    width: 400px;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    margin-left: 33%;
+    margin-top: 20px;
+}
+
+.input input {
+    width: 310px;
+    padding: 10px;
+    border: 2px solid rgb(6, 145, 145);
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+.input button{
+    width: 60px;
+    height: 45px;
+    outline: none;
+    background: rgb(1, 29, 29);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.tasks ul {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(1, 29, 29);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+.tasks ul i{
+    cursor: pointer;
+}
